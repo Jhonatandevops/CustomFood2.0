@@ -11,7 +11,7 @@ public class Login {
 
     public String validarSenha(String nome, Cpf cpf) throws IOException, ClassNotFoundException, CpfInvalidoException {
 
-        Cpf adminCpf = new Cpf("11575369486");
+        Cpf adminCpf = new Cpf("65455425757");
         
         if (nome.equalsIgnoreCase("cliente") && (clienteDados.consulta(cpf) != null)) {
             
@@ -25,7 +25,7 @@ public class Login {
         }else if (nome.equals("admin") && cpf.equals(adminCpf)) {
             
             //Guarda informacoes do usuario logado para serem usados em outras consultas
-            UsuarioLogado.CPF = new Cpf("11575369486");
+            UsuarioLogado.CPF = new Cpf("65455425757");
             UsuarioLogado.TIPO = "funcionario";
             UsuarioLogado.NOME = "Admin";
             
