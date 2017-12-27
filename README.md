@@ -1,2 +1,2 @@
 # CustomFood2.0
-Versão 2.0 (Sem interface gráfica)
+Este é um sistema onde o próprio cliente tem total autonomia para montar seu pedido, baseado em ingredientes ou pratos prontos, já cadastrado anteriormente pelo administrador. O desenvolvimento do sistema tem como justificativa, o alto tempo de espera em filas de restaurante para fazer algum pedido. Para este projeto foi utilizado como método a orientação a objetos, e passou por alguns refinamentos, desde a sua primeira versão (LAB-P1), começando pela arquitetura e interface mais simples e objetiva, de fácil manipulação tanto para cliente quanto para o administrador, até chegar as classes e o relacionamento dessas, de forma detalhada, afim de tirar maior proveito do entendimento das funções do sistema como um todo.
